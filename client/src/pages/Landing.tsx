@@ -39,17 +39,15 @@ export default function Landing() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <Link href="/flipbook">
-                <Button className="bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-700 hover:to-amber-800 text-white rounded-xl px-8 py-6 text-lg font-semibold flex items-center gap-2 shadow-lg hover:shadow-xl transition-all">
+              <Link href="/flipbook" asChild>
+                <button className="bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-700 hover:to-amber-800 text-white rounded-xl px-8 py-6 text-lg font-semibold flex items-center gap-2 shadow-lg hover:shadow-xl transition-all">
                   <BookOpen size={24} />
                   Leer Dossier
                   <ArrowRight size={20} />
-                </Button>
+                </button>
               </Link>
-              <a href="#content" className="inline-block">
-                <Button variant="outline" className="border-amber-600 text-amber-100 hover:bg-amber-900/20 rounded-xl px-8 py-6 text-lg font-semibold">
-                  Explorar Contenido
-                </Button>
+              <a href="#content" className="inline-block bg-transparent border border-amber-600 text-amber-100 hover:bg-amber-900/20 rounded-xl px-8 py-6 text-lg font-semibold">
+                Explorar Contenido
               </a>
             </div>
 
@@ -191,12 +189,12 @@ export default function Landing() {
           <p className="text-amber-100/70 text-lg mb-8 max-w-2xl mx-auto">
             Sumérgete en las 22 páginas de este dossier de viaje exclusivo. Una experiencia de lectura inmersiva con efecto de página realista.
           </p>
-          <Link href="/flipbook">
-            <Button className="bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-700 hover:to-amber-800 text-white rounded-xl px-12 py-6 text-lg font-semibold flex items-center gap-2 shadow-lg hover:shadow-xl transition-all mx-auto">
+          <Link href="/flipbook" asChild>
+            <button className="bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-700 hover:to-amber-800 text-white rounded-xl px-12 py-6 text-lg font-semibold flex items-center gap-2 shadow-lg hover:shadow-xl transition-all mx-auto">
               <BookOpen size={24} />
               Abrir Flipbook
               <ArrowRight size={20} />
-            </Button>
+            </button>
           </Link>
         </div>
       </section>

@@ -11,7 +11,7 @@ import Home from "./pages/Home";
 function Router() {
   return (
     <Switch>
-      <Route path="" component={Landing} />
+      <Route path="/" component={Landing} />
       <Route path="/flipbook" component={Home} />
       <Route path="/404" component={NotFound} />
       {/* Final fallback route */}

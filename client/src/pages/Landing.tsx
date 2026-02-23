@@ -122,7 +122,7 @@ export default function Landing() {
                 <img
                   src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/DZNYTFNVgfgzJiiY.jpg"
                   alt="Partido en vivo"
-                  className="w-full h-full object-contain bg-slate-700 group-hover:scale-105 transition-transform duration-300"
+                  className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">
@@ -144,7 +144,7 @@ export default function Landing() {
                 <img
                   src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/hNdqpTrSXkZuDQRt.jpg"
                   alt="Cartel Final Conference League"
-                  className="w-full h-full object-contain bg-slate-700 group-hover:scale-105 transition-transform duration-300"
+                  className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">

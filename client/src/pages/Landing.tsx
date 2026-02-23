@@ -182,6 +182,124 @@ export default function Landing() {
         </div>
       </section>
 
+      {/* Estadísticas y Jugadores Destacados */}
+      <section className="py-20 px-4 relative z-10 bg-gradient-to-b from-transparent via-slate-800/30 to-transparent">
+        <div className="max-w-6xl mx-auto">
+          {/* Título de sección */}
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-amber-50 mb-4">
+              Estadísticas del Partido
+            </h2>
+            <p className="text-amber-100/70 text-lg">
+              Datos clave de la final UEFA Conference League 2025
+            </p>
+          </div>
+
+          {/* Grid de estadísticas */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+            {/* Posesión */}
+            <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl p-6 border border-amber-900/20 text-center">
+              <div className="flex items-center justify-center gap-4 mb-4">
+                <div className="text-2xl font-bold text-green-400">52%</div>
+                <div className="text-2xl font-bold text-blue-400">48%</div>
+              </div>
+              <p className="text-amber-100/70 font-semibold">Posesión</p>
+              <p className="text-xs text-amber-100/50 mt-2">Real Betis • Chelsea</p>
+            </div>
+
+            {/* Tiros a puerta */}
+            <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl p-6 border border-amber-900/20 text-center">
+              <div className="flex items-center justify-center gap-4 mb-4">
+                <div className="text-2xl font-bold text-green-400">8</div>
+                <div className="text-2xl font-bold text-blue-400">6</div>
+              </div>
+              <p className="text-amber-100/70 font-semibold">Tiros a Puerta</p>
+              <p className="text-xs text-amber-100/50 mt-2">Real Betis • Chelsea</p>
+            </div>
+
+            {/* Tarjetas */}
+            <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl p-6 border border-amber-900/20 text-center">
+              <div className="flex items-center justify-center gap-6 mb-4">
+                <div>
+                  <div className="text-lg font-bold text-yellow-400">3</div>
+                  <div className="text-xs text-yellow-400/70">Amarillas</div>
+                </div>
+                <div>
+                  <div className="text-lg font-bold text-red-400">1</div>
+                  <div className="text-xs text-red-400/70">Roja</div>
+                </div>
+              </div>
+              <p className="text-amber-100/70 font-semibold">Tarjetas</p>
+              <p className="text-xs text-amber-100/50 mt-2">Total del partido</p>
+            </div>
+
+            {/* Resultado */}
+            <div className="bg-gradient-to-br from-amber-900/30 to-amber-800/20 rounded-xl p-6 border border-amber-600/40 text-center">
+              <div className="flex items-center justify-center gap-2 mb-4">
+                <div className="text-3xl font-bold text-green-400">2</div>
+                <div className="text-amber-100/70">-</div>
+                <div className="text-3xl font-bold text-blue-400">1</div>
+              </div>
+              <p className="text-amber-100/70 font-semibold">Resultado Final</p>
+              <p className="text-xs text-amber-100/50 mt-2">Real Betis Campeón</p>
+            </div>
+          </div>
+
+          {/* Jugadores Destacados */}
+          <div className="mt-20">
+            <h3 className="text-3xl font-serif font-bold text-amber-50 mb-8 text-center">
+              Jugadores Destacados
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              {/* Isco - Betis */}
+              <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl overflow-hidden border border-amber-900/20 hover:border-amber-600/40 transition-all">
+                <div className="bg-gradient-to-r from-green-600 to-green-700 h-2"></div>
+                <div className="p-6 text-center">
+                  <div className="text-4xl font-bold text-green-400 mb-2">22</div>
+                  <h4 className="text-xl font-serif font-bold text-amber-50 mb-1">Isco</h4>
+                  <p className="text-amber-100/70 text-sm mb-4">Real Betis Balompié</p>
+                  <div className="text-xs text-amber-100/60 space-y-1">
+                    <p>⚽ 1 Gol</p>
+                    <p>🎯 2 Asistencias</p>
+                    <p>👟 87 Pases Completados</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Antony - Betis */}
+              <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl overflow-hidden border border-amber-900/20 hover:border-amber-600/40 transition-all">
+                <div className="bg-gradient-to-r from-green-600 to-green-700 h-2"></div>
+                <div className="p-6 text-center">
+                  <div className="text-4xl font-bold text-green-400 mb-2">7</div>
+                  <h4 className="text-xl font-serif font-bold text-amber-50 mb-1">Antony</h4>
+                  <p className="text-amber-100/70 text-sm mb-4">Real Betis Balompié</p>
+                  <div className="text-xs text-amber-100/60 space-y-1">
+                    <p>⚽ 1 Gol</p>
+                    <p>🎯 1 Asistencia</p>
+                    <p>🏃 9 Regates Exitosos</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Palmer - Chelsea */}
+              <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl overflow-hidden border border-amber-900/20 hover:border-amber-600/40 transition-all">
+                <div className="bg-gradient-to-r from-blue-600 to-blue-700 h-2"></div>
+                <div className="p-6 text-center">
+                  <div className="text-4xl font-bold text-blue-400 mb-2">20</div>
+                  <h4 className="text-xl font-serif font-bold text-amber-50 mb-1">Palmer</h4>
+                  <p className="text-amber-100/70 text-sm mb-4">Chelsea FC</p>
+                  <div className="text-xs text-amber-100/60 space-y-1">
+                    <p>⚽ 1 Gol</p>
+                    <p>🎯 0 Asistencias</p>
+                    <p>🏃 6 Regates Exitosos</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Final */}
       <section className="py-20 px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">

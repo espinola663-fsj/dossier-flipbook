@@ -100,7 +100,7 @@ export default function Landing() {
                 <img
                   src="https://private-us-east-1.manuscdn.com/sessionFile/5PgCHrmlMsa9ihc1tSha2f/sandbox/zf1Kpi2wDxh4AggSpXIZ2w-img-1_1771837692000_na1fn_ZG9zc2llci10cmF2ZWwtdGVydWVs.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvNVBnQ0hybWxNc2E5aWhjMXRTaGEyZi9zYW5kYm94L3pmMUtwaTJ3RHhoNEFnZ1NwWElaMnctaW1nLTFfMTc3MTgzNzY5MjAwMF9uYTFmbl9aRzl6YzJsbGNpMTBjbUYyWld3dGRHVnlkV1ZzLmpwZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=GBXYBClgEba~GknS7CCISpXBXq-E-T8bHjskw2v7si0cBl8agfR1k2UkffCKJmNCeEgtC3nSajcPPbiBgL3W81W~8yybAfGOQqRg76jU6Exd5pVWyzeGkrjr7BS0~Qdcloef6vcAcjxJsQgAC0Ey2kArMHdyWpG477CH51~8D540svwrUYF6W5W3I5dWA3aaTnjF5RqR80ksR2rgg2kSQg7nJjE6w0FUpsFryNjbEJfLGqai16TDzbODfSnOcb8-29rQFSmmHqe9XKTvG7qYEY4mAi7Gctf4MiGZHAFCE4ANCn7FraReXxJd80h8lX7N3ky6iXfpyq-V4dcERArJjA__"
                   alt="Ruta desde Teruel a Wrocław"
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  className="w-full h-full object-contain bg-slate-700 group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">
@@ -122,7 +122,7 @@ export default function Landing() {
                 <img
                   src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/DZNYTFNVgfgzJiiY.jpg"
                   alt="Partido en vivo"
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  className="w-full h-full object-contain bg-slate-700 group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">
@@ -144,7 +144,7 @@ export default function Landing() {
                 <img
                   src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/hNdqpTrSXkZuDQRt.jpg"
                   alt="Cartel Final Conference League"
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  className="w-full h-full object-contain bg-slate-700 group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">

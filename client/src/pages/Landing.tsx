@@ -142,8 +142,8 @@ export default function Landing() {
             <div className="group bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 border border-amber-900/20 hover:border-amber-600/40">
               <div className="relative h-64 overflow-hidden">
                 <img
-                  src="https://private-us-east-1.manuscdn.com/sessionFile/5PgCHrmlMsa9ihc1tSha2f/sandbox/zf1Kpi2wDxh4AggSpXIZ2w-img-2_1771837682000_na1fn_YmV0aXMtY3Jlc3Rz.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvNVBnQ0hybWxNc2E5aWhjMXRTaGEyZi9zYW5kYm94L3pmMUtwaTJ3RHhoNEFnZ1NwWElaMnctaW1nLTJfMTc3MTgzNzY4MjAwMF9uYTFmbl9ZbVYwYVhNdFkzSmxjM1J6LmpwZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=fVitpuXr6dWwwPviAyk4ru8MzdMNZgNwAR1COY2Et8hMkj--bkLhbCU9hwvpLpDbw1iQlV1Zvk9Y29~R6cXZo6Ae6r0aJOYfglppL5CIHJ3i4ExjU8n5KOuCVF~H0TYezkZbOXTF9FQ-QWwB7B~B4WgzdSwsvQ4HPumFT27zfGNeYyyS~e3B6UYJA-RN-zKLZdqU6Z47OcYditJcGPu8Wuf~Xsg4Ep2oas~G93Ooi0QPw94rVfJPARoREw7IV8SjR2lA~Jm4aQ6ASGoaWflWkgRcU~MWMo5-LGD4cnsNC3HqCDXvlpTH1oWjseNv5svehaqbvsiNv61CfoKkIGNlFQ__"
-                  alt="Escudos oficiales Real Betis Balompié"
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/hNdqpTrSXkZuDQRt.jpg"
+                  alt="Cartel Final Conference League"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                 />
               </div>
@@ -151,11 +151,11 @@ export default function Landing() {
                 <div className="flex items-center gap-3 mb-3">
                   <Trophy className="text-amber-400" size={24} />
                   <h3 className="text-2xl font-serif font-bold text-amber-50">
-                    Los Escudos
+                    Cartel Final Conference League
                   </h3>
                 </div>
                 <p className="text-amber-100/70">
-                  Emblemas oficiales y crests históricos del Real Betis Balompié en toda su gloria.
+                  Miércoles 28 de mayo de 2025. Estadio Wrocław Breslavia. Real Betis vs Chelsea en el partido decisivo de la UEFA Europa Conference League a las 9:00 de la noche.
                 </p>
               </div>
             </div>

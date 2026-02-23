@@ -1,6 +1,6 @@
-import { Button } from '@/components/ui/button';
 import { Link } from 'wouter';
 import { ArrowRight, BookOpen, MapPin, Trophy } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 
 /**
  * Página de inicio - Landing page del dossier

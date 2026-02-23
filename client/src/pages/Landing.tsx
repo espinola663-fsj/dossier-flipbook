@@ -96,12 +96,12 @@ export default function Landing() {
 
           {/* Grid de contenido */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-            {/* Card 1 - Viaje */}
+            {/* Card 1 - Viaje desde Teruel */}
             <div className="group bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 border border-amber-900/20 hover:border-amber-600/40">
               <div className="relative h-64 overflow-hidden">
                 <img
-                  src="https://private-us-east-1.manuscdn.com/sessionFile/5PgCHrmlMsa9ihc1tSha2f/sandbox/aVlqpl3NAwW6NYGS8LgtKa-img-2_1771837333000_na1fn_ZG9zc2llci10cmF2ZWw.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvNVBnQ0hybWxNc2E5aWhjMXRTaGEyZi9zYW5kYm94L2FWbHFwbDNOQXdXNk5ZR1M4TGd0S2EtaW1nLTJfMTc3MTgzNzMzMzAwMF9uYTFmbl9aRzl6YzJsbGNpMTBjbUYyWld3LmpwZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=ftN0XPsPsirIOx~1Gh5JjXt36aG~7BMJxVzutZvPVb9tQx5aJetAkgU-fJpUrFGvnPdzqI5ZLbE697VZN19CjJKHtXN79ZjTS-wvgwlJXjp2fpPi2y6pBbYyWlJfZbdpQTBRGWnY3jkE3I2Xfqm7Xx2MzqW2NYc-0IK97sXsuGepB6cgmvYbKQ-keLScJUXRtO017Jm~QJimaD2FLDEsz0HjLeGCQpqD02Lof-f9FSTkqBcllrxSAx3J~i9m3BiidnQE5oPcXxaOpB9ja6jdfx2kIcvxn0rK1J9r4NwhWmPANrgDkXumAyrj8twy-jRwShR9TNzh8vXt-ycTkktbeg__"
-                  alt="Mapa del viaje"
+                  src="https://private-us-east-1.manuscdn.com/sessionFile/5PgCHrmlMsa9ihc1tSha2f/sandbox/zf1Kpi2wDxh4AggSpXIZ2w-img-1_1771837692000_na1fn_ZG9zc2llci10cmF2ZWwtdGVydWVs.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvNVBnQ0hybWxNc2E5aWhjMXRTaGEyZi9zYW5kYm94L3pmMUtwaTJ3RHhoNEFnZ1NwWElaMnctaW1nLTFfMTc3MTgzNzY5MjAwMF9uYTFmbl9aRzl6YzJsbGNpMTBjbUYyWld3dGRHVnlkV1ZzLmpwZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=GBXYBClgEba~GknS7CCISpXBXq-E-T8bHjskw2v7si0cBl8agfR1k2UkffCKJmNCeEgtC3nSajcPPbiBgL3W81W~8yybAfGOQqRg76jU6Exd5pVWyzeGkrjr7BS0~Qdcloef6vcAcjxJsQgAC0Ey2kArMHdyWpG477CH51~8D540svwrUYF6W5W3I5dWA3aaTnjF5RqR80ksR2rgg2kSQg7nJjE6w0FUpsFryNjbEJfLGqai16TDzbODfSnOcb8-29rQFSmmHqe9XKTvG7qYEY4mAi7Gctf4MiGZHAFCE4ANCn7FraReXxJd80h8lX7N3ky6iXfpyq-V4dcERArJjA__"
+                  alt="Ruta desde Teruel a Wrocław"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                 />
               </div>
@@ -113,7 +113,7 @@ export default function Landing() {
                   </h3>
                 </div>
                 <p className="text-amber-100/70">
-                  Descubre el viaje desde Sevilla hasta Wrocław, pasando por los puntos más emblemáticos de Europa.
+                  Descubre el viaje desde Teruel hasta Wrocław, pasando por los puntos más emblemáticos de Europa.
                 </p>
               </div>
             </div>
@@ -140,42 +140,42 @@ export default function Landing() {
               </div>
             </div>
 
-            {/* Card 3 - Colección */}
+            {/* Card 3 - Escudos Betis */}
             <div className="group bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 border border-amber-900/20 hover:border-amber-600/40">
               <div className="relative h-64 overflow-hidden">
                 <img
-                  src="https://private-us-east-1.manuscdn.com/sessionFile/5PgCHrmlMsa9ihc1tSha2f/sandbox/aVlqpl3NAwW6NYGS8LgtKa-img-4_1771837337000_na1fn_ZG9zc2llci1jb2xsZWN0aW9u.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvNVBnQ0hybWxNc2E5aWhjMXRTaGEyZi9zYW5kYm94L2FWbHFwbDNOQXdXNk5ZR1M4TGd0S2EtaW1nLTRfMTc3MTgzNzMzNzAwMF9uYTFmbl9aRzl6YzJsbGNpMWpiMnhzWldOMGFXOXUuanBnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=Ju3v0Wy0i1H7HvVI7vJtZ8RewsNorD-PfUFcuToQGUUjGKfj9mXTROFckWueYXzJ0XOksMTJTKrkHIwWP9CF2ua7k-GXU0kF3zngVx8FX1sQU5YgP~7kowfICTwBKP6PfOMcMrQQ-oWXkWIsIbZHSk2zsxjqHDN7NlNsyueyIIbErFlVhdI8gNMfVvZtLPx~T7lVkbr-o4xfXZB6L4OW9zHzPbz5UbsQfOr5QSFZel09J3M445oA~OVLE7vWlbxs~ypgJodTM0i2F11XdWplJG8~cp5P7an8Z7w88Bx8t6qha2ifXKUgH91GhHadQYzJgkbqholrdn2MeVhv6TgdXQ__"
-                  alt="Colección de memorabilia"
+                  src="https://private-us-east-1.manuscdn.com/sessionFile/5PgCHrmlMsa9ihc1tSha2f/sandbox/zf1Kpi2wDxh4AggSpXIZ2w-img-2_1771837682000_na1fn_YmV0aXMtY3Jlc3Rz.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvNVBnQ0hybWxNc2E5aWhjMXRTaGEyZi9zYW5kYm94L3pmMUtwaTJ3RHhoNEFnZ1NwWElaMnctaW1nLTJfMTc3MTgzNzY4MjAwMF9uYTFmbl9ZbVYwYVhNdFkzSmxjM1J6LmpwZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=fVitpuXr6dWwwPviAyk4ru8MzdMNZgNwAR1COY2Et8hMkj--bkLhbCU9hwvpLpDbw1iQlV1Zvk9Y29~R6cXZo6Ae6r0aJOYfglppL5CIHJ3i4ExjU8n5KOuCVF~H0TYezkZbOXTF9FQ-QWwB7B~B4WgzdSwsvQ4HPumFT27zfGNeYyyS~e3B6UYJA-RN-zKLZdqU6Z47OcYditJcGPu8Wuf~Xsg4Ep2oas~G93Ooi0QPw94rVfJPARoREw7IV8SjR2lA~Jm4aQ6ASGoaWflWkgRcU~MWMo5-LGD4cnsNC3HqCDXvlpTH1oWjseNv5svehaqbvsiNv61CfoKkIGNlFQ__"
+                  alt="Escudos oficiales Real Betis Balompié"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">
                 <div className="flex items-center gap-3 mb-3">
-                  <BookOpen className="text-amber-400" size={24} />
+                  <Trophy className="text-amber-400" size={24} />
                   <h3 className="text-2xl font-serif font-bold text-amber-50">
-                    La Colección
+                    Los Escudos
                   </h3>
                 </div>
                 <p className="text-amber-100/70">
-                  Memorabilia exclusiva: entradas oficiales, postales conmemorativas y artefactos únicos del viaje.
+                  Emblemas oficiales y crests históricos del Real Betis Balompié en toda su gloria.
                 </p>
               </div>
             </div>
           </div>
 
-          {/* Imagen adicional - Wrocław */}
+          {/* Imagen adicional - Final Wrocław */}
           <div className="mt-16 rounded-2xl overflow-hidden shadow-2xl border border-amber-900/20">
             <img
-              src="https://private-us-east-1.manuscdn.com/sessionFile/5PgCHrmlMsa9ihc1tSha2f/sandbox/aVlqpl3NAwW6NYGS8LgtKa-img-5_1771837337000_na1fn_ZG9zc2llci13cm9jbGF3.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvNVBnQ0hybWxNc2E5aWhjMXRTaGEyZi9zYW5kYm94L2FWbHFwbDNOQXdXNk5ZR1M4TGd0S2EtaW1nLTVfMTc3MTgzNzMzNzAwMF9uYTFmbl9aRzl6YzJsbGNpMTNjbTlqYkdGMy5qcGc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=J9GcswDOlP~wmHQwAj6w55x5jIfaYUOsYGh8TbqwCFnvn4Zu6dBpTHeiwmOHFRnZjPq85xsHjBUlttAPRJIYP00AYJ~3um4u46yjckYVfbeNNO~lc7k60bKKAHTHL9ylNsWl-cNM4qWPTM0rbvohz5ZM83fjGU1saNu8dc89DdJ3l0I1UgxHzDKMxHtpM27IhPc6iWZHYHtLkqYj4I00eRkvTRADTACBzLsRihDYZXdV1OikIzy34dF~bTCugHXAPVy6kwQCKaKlFDl6HRkOeXQ3C66Q-Em66kwKApyclGg6gTLxllceDerTLUNKKh77cLYuyjwRCPTgVVdykVsabw__"
-              alt="Wrocław - Ciudad anfitriona"
+              src="https://private-us-east-1.manuscdn.com/sessionFile/5PgCHrmlMsa9ihc1tSha2f/sandbox/zf1Kpi2wDxh4AggSpXIZ2w-img-3_1771837684000_na1fn_d3JvY2xhdy1maW5hbC0yMDI1.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvNVBnQ0hybWxNc2E5aWhjMXRTaGEyZi9zYW5kYm94L3pmMUtwaTJ3RHhoNEFnZ1NwWElaMnctaW1nLTNfMTc3MTgzNzY4NDAwMF9uYTFmbl9kM0p2WTJ4aGR5MW1hVzVoYkMweU1ESTEuanBnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=juFJJeoPHpkQwCiZ0od6w8BlXHP-u-qaiC6r9Kl7ih5e899mS3M6ZgGnsOtHSLkSfzaS0dQqyraQ1OzvnhKrcvQ0OCguVl09U5dcJAuY3Qwx9QA5f2y1QYBl1kDAhSpzAIbLu-HMPXhFY-tLGVCkaHqqzg0dHTrhGO-pin4GFyqQC01S~FqZJ8Kx1232RFUwib~x6GUSPOmWcxnoRR-i6MSaINaKOQOHO4el8v3P7clc1A148MyqfK4Bp~CpSP-Z0fHEkPsI17r-NznMRlCIkvtxiCHaVViwjPCr5HbwJw6i0PTab-8i4Pd--J58WzTTy73STwCXpg43Yp7zFQFAww__"
+              alt="Final Wrocław 2025 - Celebración"
               className="w-full h-96 object-cover"
             />
             <div className="bg-gradient-to-t from-slate-950 to-transparent p-8 absolute bottom-0 left-0 right-0">
               <h3 className="text-3xl font-serif font-bold text-amber-50 mb-2">
-                Wrocław: La Ciudad Anfitriona
+                Final 2025 en Wrocław
               </h3>
               <p className="text-amber-100/70 max-w-2xl">
-                La histórica ciudad polaca de Wrocław acogió el encuentro más importante de la temporada, brindando un escenario europeo de ensueño para este dossier de viaje único.
+                La plaza de Wrocław se llena de pasión: aficionados del Real Betis y Chelsea celebrando la UEFA Conference League Final en la histórica ciudad polaca.
               </p>
             </div>
           </div>

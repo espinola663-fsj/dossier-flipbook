@@ -1,5 +1,5 @@
 import { Link } from 'wouter';
-import { ArrowRight, BookOpen, MapPin, Trophy } from 'lucide-react';
+import { ArrowRight, BookOpen, MapPin, Trophy, Facebook, Twitter, MessageCircle, Linkedin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 /**
@@ -9,6 +9,24 @@ import { Button } from '@/components/ui/button';
  */
 
 export default function Landing() {
+  const shareUrl = typeof window !== 'undefined' ? window.location.origin : '';
+  const shareTitle = 'Dossier de Viaje Coleccionista - Real Betis vs Chelsea';
+  const shareText = 'Descubre el viaje extraordinario documentado en este dossier de lujo';
+
+  const openShare = (platform: string) => {
+    let url = '';
+    if (platform === 'facebook') {
+      url = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`;
+    } else if (platform === 'twitter') {
+      url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareTitle)}&url=${encodeURIComponent(shareUrl)}`;
+    } else if (platform === 'whatsapp') {
+      url = `https://wa.me/?text=${encodeURIComponent(shareText + ' ' + shareUrl)}`;
+    } else if (platform === 'linkedin') {
+      url = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(shareUrl)}`;
+    }
+    if (url) window.open(url, '_blank', 'width=600,height=400');
+  };
+
   return (
     <div className="w-full bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950">
       {/* Hero Section */}
@@ -176,6 +194,19 @@ export default function Landing() {
                 La plaza de Wrocław se llena de pasión: aficionados del Real Betis y Chelsea celebrando la UEFA Conference League Final en la histórica ciudad polaca.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Nueva sección con imagen compartida */}
+      <section className="py-20 px-4 relative z-10">
+        <div className="max-w-6xl mx-auto">
+          <div className="rounded-2xl overflow-hidden shadow-2xl border border-amber-900/20">
+            <img
+              src="https://manus.im/share/70ybTYqTr5z1fmxoMObm6c"
+              alt="Contenido adicional del dossier"
+              className="w-full h-auto object-contain"
+            />
           </div>
         </div>
       </section>

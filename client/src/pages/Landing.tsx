@@ -199,13 +199,16 @@ export default function Landing() {
       </section>
 
       {/* Nueva sección con imagen compartida */}
-      <section className="py-20 px-4 relative z-10">
+      <section className="py-20 px-4 relative z-10" id="content">
         <div className="max-w-6xl mx-auto">
-          <div className="rounded-2xl overflow-hidden shadow-2xl border border-amber-900/20">
+          <h2 className="text-3xl md:text-4xl font-serif font-bold text-amber-50 mb-8 text-center">
+            Explora el Contenido
+          </h2>
+          <div className="rounded-2xl overflow-hidden shadow-2xl border border-amber-900/20 bg-slate-800">
             <img
               src="https://manus.im/share/70ybTYqTr5z1fmxoMObm6c"
               alt="Contenido adicional del dossier"
-              className="w-full h-auto object-contain"
+              className="w-full min-h-96 object-contain bg-slate-700"
             />
           </div>
         </div>

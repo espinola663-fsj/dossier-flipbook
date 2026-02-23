@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { ChevronLeft, ChevronRight, Maximize2, Minimize2 } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Maximize2, Minimize2, ArrowLeft } from 'lucide-react';
 import { getPageUrl } from '@/lib/pageUrls';
+import { Link } from 'wouter';
 
 /**
  * Componente Flipbook - Libro interactivo con efecto de cambio de página
@@ -283,6 +284,16 @@ export default function Flipbook({ totalPages, onPageChange }: FlipbookProps) {
             <span className={isFullscreen ? 'hidden' : 'hidden sm:inline'}>Siguiente</span>
             <ChevronRight size={isFullscreen ? 16 : 20} />
           </button>
+
+          {/* Botón volver a inicio */}
+          <Link href="/" asChild>
+            <button className={`flex items-center gap-2 px-${isFullscreen ? '4' : '6'} py-${isFullscreen ? '2' : '3'} bg-gradient-to-r from-slate-600 to-slate-700 hover:from-slate-700 hover:to-slate-800 text-white rounded-xl font-semibold transition-all duration-200 shadow-lg hover:shadow-xl border border-slate-500/50`}
+              title="Volver a la página de inicio"
+            >
+              <ArrowLeft size={isFullscreen ? 16 : 20} />
+              {!isFullscreen && <span className="hidden sm:inline">Volver</span>}
+            </button>
+          </Link>
 
           {/* Botón pantalla completa */}
           <button

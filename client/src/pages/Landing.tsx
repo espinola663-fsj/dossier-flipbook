@@ -122,7 +122,7 @@ export default function Landing() {
             <div className="group bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 border border-amber-900/20 hover:border-amber-600/40">
               <div className="relative h-64 overflow-hidden">
                 <img
-                  src="https://private-us-east-1.manuscdn.com/sessionFile/5PgCHrmlMsa9ihc1tSha2f/sandbox/w3QNy9itJudyquPukOLiPR-img-1_1771838815000_na1fn_ZG9zc2llci1tYXRjaC1wbGF5ZXJz.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvNVBnQ055OWl0SnVkeXF1UHVrT0xpUFItaW1nLTFfMTc3MTgzODgxNTAwMF9uYTFmbl9aRzl6YzJsbGNpMXRZWFJqYUMxd2JHRjVaWEp6LmpwZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=ih9capwtjnrA6sfkoglq11akvPhKv2doYZEAd3eYRZIVxbl0aE6skbiBN3FqGWtyCYGDup08cI9Bidbtxm7129Wg63oU01N6B9-71QXXslEEAEN51e2mcESFILOGhRuZ9Nuukkj2cpttkrKwa~5xQ71ZPqz1mYBy9FEsiXeUBaALuB8y-qbUuhOoiJ6ITBYNVwsC4Dx64iAxpPpa06cHSO2FE96bM2JvOpgxAEc1y1Xj99YsORTvPOyaY4j6oNRbXYdnblTS3gNMecmRwUiH~2Y48kk6-guWlqK0MRpX22mcokGUSsTPmgUkdXdQl5lS2QQ3vfvzRrBUlWGmxCHXIg__"
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/DZNYTFNVgfgzJiiY.jpg"
                   alt="Partido en vivo"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                 />

@@ -128,7 +128,7 @@ export default function Landing() {
               <div className="absolute inset-0 bg-gradient-to-br from-amber-900/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               <div className="relative h-72 overflow-hidden">
                 <img
-                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/QkLJZmKqOXPXdLVb.jpg"
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/gCKxwWWUiVQNokcC.jpg"
                   alt="La Ruta"
                   className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-700"
                 />
@@ -170,7 +170,7 @@ export default function Landing() {
               <div className="absolute inset-0 bg-gradient-to-br from-amber-900/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               <div className="relative h-72 overflow-hidden">
                 <img
-                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/QuvdEpxZffClSjZZ.png"
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/SAaCSqvckTkKvFBD.jpg"
                   alt="Cartel Final"
                   className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-700"
                 />
@@ -195,7 +195,7 @@ export default function Landing() {
           <div className="relative group">
             <div className="absolute inset-0 bg-gradient-to-r from-amber-900/30 via-transparent to-amber-900/30 rounded-3xl blur-2xl group-hover:blur-3xl transition-all duration-500" />
             <img
-              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/QuvdEpxZffClSjZZ.png"
+              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/SAaCSqvckTkKvFBD.jpg"
               alt="Sello Final Conference League"
               className="relative w-full h-auto drop-shadow-2xl group-hover:drop-shadow-3xl group-hover:scale-105 transition-all duration-500 rounded-2xl"
             />

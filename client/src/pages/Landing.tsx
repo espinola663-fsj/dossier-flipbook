@@ -205,43 +205,6 @@ export default function Landing() {
         </div>
       </section>
 
-      {/* Sección de contenido adicional */}
-      <section className="py-20 px-4 relative z-10" id="content">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-serif font-bold text-amber-50 mb-8 text-center">
-            Explora el Contenido
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Tarjeta 1 - Memorabilia */}
-            <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl p-8 border border-amber-900/20 hover:border-amber-600/40 transition-all hover:shadow-xl">
-              <div className="text-4xl mb-4">🎫</div>
-              <h3 className="text-2xl font-serif font-bold text-amber-50 mb-3">Memorabilia</h3>
-              <p className="text-amber-100/70 leading-relaxed">
-                Entradas, pulseras y souvenirs únicos del viaje a Wrocław. Cada objeto cuenta una historia de esta travesía inolvidable.
-              </p>
-            </div>
-
-            {/* Tarjeta 2 - Fotografías */}
-            <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl p-8 border border-amber-900/20 hover:border-amber-600/40 transition-all hover:shadow-xl">
-              <div className="text-4xl mb-4">📸</div>
-              <h3 className="text-2xl font-serif font-bold text-amber-50 mb-3">Fotografías</h3>
-              <p className="text-amber-100/70 leading-relaxed">
-                Momentos capturados desde Teruel hasta Wrocław. Paisajes, ciudades y la pasión de los aficionados en cada imagen.
-              </p>
-            </div>
-
-            {/* Tarjeta 3 - Experiencias */}
-            <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl p-8 border border-amber-900/20 hover:border-amber-600/40 transition-all hover:shadow-xl">
-              <div className="text-4xl mb-4">✨</div>
-              <h3 className="text-2xl font-serif font-bold text-amber-50 mb-3">Experiencias</h3>
-              <p className="text-amber-100/70 leading-relaxed">
-                Historias personales y testimonios de aficionados que vivieron esta final histórica en la ciudad polaca.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* CTA Final */}
       <section className="py-20 px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">

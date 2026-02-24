@@ -55,27 +55,31 @@ export default function Landing() {
                 Un viaje extraordinario documentado en un libro de lujo. Descubre la historia de una travesía europea inolvidable, desde Teruel hasta Wrocław, capturando cada momento de este encuentro histórico.
               </p>
 
-              {/* Botones CTA */}
-              <div className="flex flex-col sm:flex-row gap-4 pt-4">
+              {/* Botones CTA Premium */}
+              <div className="flex flex-col sm:flex-row gap-5 pt-8">
                 <Link href="/flipbook" asChild>
-                  <button className="group relative px-8 py-4 bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-700 hover:to-amber-800 text-white rounded-lg font-semibold flex items-center gap-3 shadow-xl hover:shadow-2xl transition-all duration-300 overflow-hidden">
-                    <div className="absolute inset-0 bg-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                    <BookOpen size={20} />
-                    <span>Leer Dossier</span>
-                    <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+                  <button className="group relative px-10 py-5 bg-gradient-to-br from-amber-500 via-amber-600 to-amber-700 hover:from-amber-600 hover:via-amber-700 hover:to-amber-800 text-white rounded-xl font-semibold flex items-center justify-center gap-3 shadow-2xl hover:shadow-3xl transition-all duration-500 overflow-hidden border border-amber-400/30 hover:border-amber-300/60">
+                    <div className="absolute inset-0 bg-gradient-to-r from-white/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                    <div className="absolute -inset-1 bg-gradient-to-r from-amber-400 to-amber-600 rounded-xl blur opacity-0 group-hover:opacity-30 transition-opacity duration-500" />
+                    <BookOpen size={22} className="relative" />
+                    <span className="relative text-lg">Leer Dossier</span>
+                    <ArrowRight size={20} className="relative group-hover:translate-x-2 transition-transform duration-300" />
                   </button>
                 </Link>
 
-                <a href="#content" className="group px-8 py-4 bg-white/5 border border-amber-600/30 hover:border-amber-500/60 text-amber-100 hover:text-amber-50 rounded-lg font-semibold flex items-center gap-2 transition-all duration-300 backdrop-blur-sm">
-                  <span>Explorar Contenido</span>
-                  <ChevronDown size={18} className="group-hover:translate-y-1 transition-transform" />
+                <a href="#content" className="group relative px-10 py-5 bg-gradient-to-br from-slate-700 to-slate-800 hover:from-slate-600 hover:to-slate-700 text-amber-100 hover:text-amber-50 rounded-xl font-semibold flex items-center justify-center gap-2 transition-all duration-500 backdrop-blur-md border border-amber-600/40 hover:border-amber-500/70 shadow-xl hover:shadow-2xl">
+                  <div className="absolute inset-0 bg-gradient-to-r from-amber-500/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-xl" />
+                  <span className="relative text-lg">Explorar Contenido</span>
+                  <ChevronDown size={20} className="relative group-hover:translate-y-1 transition-transform duration-300" />
                 </a>
 
                 <Link href="/slideshow" asChild>
-                  <button className="group px-8 py-4 bg-gradient-to-r from-purple-600/80 to-purple-700/80 hover:from-purple-600 hover:to-purple-700 text-white rounded-lg font-semibold flex items-center gap-2 shadow-lg hover:shadow-xl transition-all duration-300">
-                    <span>📊</span>
-                    <span>Ver Presentación</span>
-                    <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+                  <button className="group relative px-10 py-5 bg-gradient-to-br from-purple-500 via-purple-600 to-purple-700 hover:from-purple-600 hover:via-purple-700 hover:to-purple-800 text-white rounded-xl font-semibold flex items-center justify-center gap-3 shadow-2xl hover:shadow-3xl transition-all duration-500 overflow-hidden border border-purple-400/30 hover:border-purple-300/60">
+                    <div className="absolute inset-0 bg-gradient-to-r from-white/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                    <div className="absolute -inset-1 bg-gradient-to-r from-purple-400 to-purple-600 rounded-xl blur opacity-0 group-hover:opacity-30 transition-opacity duration-500" />
+                    <span className="relative text-2xl">📊</span>
+                    <span className="relative text-lg">Ver Presentación</span>
+                    <ArrowRight size={20} className="relative group-hover:translate-x-2 transition-transform duration-300" />
                   </button>
                 </Link>
               </div>
@@ -216,10 +220,12 @@ export default function Landing() {
                 Sumérgete en las 22 páginas de este dossier de viaje exclusivo. Una experiencia de lectura inmersiva con efecto de página realista.
               </p>
               <Link href="/flipbook" asChild>
-                <button className="group inline-flex items-center gap-3 px-10 py-5 bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-700 hover:to-amber-800 text-white rounded-lg font-semibold shadow-xl hover:shadow-2xl transition-all duration-300">
-                  <BookOpen size={24} />
-                  <span>Abrir Flipbook</span>
-                  <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+                <button className="group relative inline-flex items-center justify-center gap-3 px-12 py-6 bg-gradient-to-br from-amber-500 via-amber-600 to-amber-700 hover:from-amber-600 hover:via-amber-700 hover:to-amber-800 text-white rounded-xl font-semibold shadow-2xl hover:shadow-3xl transition-all duration-500 overflow-hidden border border-amber-400/30 hover:border-amber-300/60">
+                  <div className="absolute inset-0 bg-gradient-to-r from-white/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                  <div className="absolute -inset-1 bg-gradient-to-r from-amber-400 to-amber-600 rounded-xl blur opacity-0 group-hover:opacity-30 transition-opacity duration-500" />
+                  <BookOpen size={26} className="relative" />
+                  <span className="relative text-lg">Abrir Flipbook</span>
+                  <ArrowRight size={22} className="relative group-hover:translate-x-2 transition-transform duration-300" />
                 </button>
               </Link>
             </div>

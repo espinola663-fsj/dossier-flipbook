@@ -141,12 +141,12 @@ export default function Landing() {
               </div>
             </div>
 
-            {/* Card 2 - Partido */}
+            {/* Card 2 - Camiseta Oficial */}
             <div className="group bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 border border-amber-900/20 hover:border-amber-600/40">
               <div className="relative h-64 overflow-hidden">
                 <img
-                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/DZNYTFNVgfgzJiiY.jpg"
-                  alt="Partido en vivo"
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/opdBlWvbEXfOXkGD.jpg"
+                  alt="Camiseta oficial Real Betis"
                   className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
@@ -154,11 +154,11 @@ export default function Landing() {
                 <div className="flex items-center gap-3 mb-3">
                   <Trophy className="text-amber-400" size={24} />
                   <h3 className="text-2xl font-serif font-bold text-amber-50">
-                    El Partido
+                    Camiseta Oficial
                   </h3>
                 </div>
                 <p className="text-amber-100/70">
-                  Vive la intensidad del encuentro entre Real Betis y Chelsea en la final de la UEFA Conference League.
+                  Camiseta oficial Real Betis Final Conference League 2025. Edición limitada conmemorativa del histórico encuentro en Wrocław.
                 </p>
               </div>
             </div>

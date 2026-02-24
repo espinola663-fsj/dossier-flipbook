@@ -67,6 +67,13 @@ export default function Landing() {
               <a href="#content" className="inline-block bg-transparent border border-amber-600 text-amber-100 hover:bg-amber-900/20 rounded-xl px-8 py-6 text-lg font-semibold">
                 Explorar Contenido
               </a>
+              <Link href="/slideshow" asChild>
+                <button className="bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white rounded-xl px-8 py-6 text-lg font-semibold flex items-center gap-2 shadow-lg hover:shadow-xl transition-all">
+                  <span>📊</span>
+                  Ver Presentación
+                  <ArrowRight size={20} />
+                </button>
+              </Link>
             </div>
 
             {/* Stats */}

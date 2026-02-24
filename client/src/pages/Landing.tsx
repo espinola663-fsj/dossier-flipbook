@@ -205,6 +205,17 @@ export default function Landing() {
         </div>
       </section>
 
+      {/* Sello Vintage */}
+      <section className="py-20 px-4 relative z-10 flex justify-center">
+        <div className="max-w-md">
+          <img
+            src="https://private-us-east-1.manuscdn.com/sessionFile/5PgCHrmlMsa9ihc1tSha2f/sandbox/RFHZnyVn0voRswsEL6VMCX-img-1_1771941228000_na1fn_c2VhbC1mcmFuY2lzY28tYm9yamE.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvNVBnQ0hybWxNc2E5aWhjMXRTaGEyZi9zYW5kYm94L1JGSFpueVZuMHZvUnN3c0VMNlZNQ1gtaW1nLTFfMTc3MTk0MTIyODAwMF9uYTFmbl9jMlZoYkMxbWNtRnVZMmx6WTI4dFltOXlhbUUucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=mJOgqBorlteYSmFVeoraidfJRQHVjLx5T7G-dtgTsH9i5GOcpB4MQklK~8Ukzk5GOBlH81qI8XzM~K9J9Zu~sLkjf3PZATJS3t0zpr~wUyy2gGrzrwWoqOE19PCipp6~clqG-SX9Xx7Kd8WcNBlh8KVP9FozkSO8nl7ys87n1w6uNYQZZeIY3n5-Opi2WrDVihHtAkM1cVA75UqySSCZBG-7BJQaX0n8B06HWAPHXpRMqDqBulHW8JcoWAElLPCJOgcp9sPLUhDcnyycBNkKyvGy-i9yufobBjD8QIqhQXNZDQA~TUM9eKkScLG4OkSJ3d2FJF5X7UlaYlw7Cqwv7g__"
+            alt="Sello Francisco de Borja Espinola Vergara"
+            className="w-full h-auto drop-shadow-2xl hover:scale-105 transition-transform duration-300"
+          />
+        </div>
+      </section>
+
       {/* CTA Final */}
       <section className="py-20 px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">

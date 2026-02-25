@@ -125,7 +125,7 @@ export default function Landing() {
               <img 
                 src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/mrBErlonKTjgTjJS.png"
                 alt="Dossier de viaje"
-                className="relative w-full h-auto rounded-2xl shadow-2xl group-hover:shadow-3xl transition-all duration-500 object-contain"
+                className="relative w-full h-auto rounded-2xl shadow-2xl group-hover:shadow-3xl transition-all duration-500 object-contain max-h-96"
               />
             </div>
           </div>
@@ -151,7 +151,7 @@ export default function Landing() {
               <div className="absolute inset-0 bg-gradient-to-br from-amber-500/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               <div className="relative aspect-video overflow-hidden">
                 <img 
-                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/mrBErlonKTjgTjJS.png"
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/yaXHVidlxpqlNwEd.jpg"
                   alt="La Ruta"
                   className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-700"
                 />
@@ -172,7 +172,7 @@ export default function Landing() {
               <div className="absolute inset-0 bg-gradient-to-br from-amber-500/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               <div className="relative aspect-video overflow-hidden">
                 <img 
-                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/mrBErlonKTjgTjJS.png"
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/sefvwQzTbiVgROAR.jpg"
                   alt="Camiseta Oficial"
                   className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-700"
                 />
@@ -221,7 +221,7 @@ export default function Landing() {
             
             {/* Placa dorada */}
             <img 
-              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/mrBErlonKTjgTjJS.png"
+              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/DRxuUfAbyafqxDNi.png"
               alt="Placa personalizada"
               className="relative w-full max-w-2xl h-auto object-contain drop-shadow-2xl group-hover:scale-105 transition-transform duration-500 rounded-2xl"
             />

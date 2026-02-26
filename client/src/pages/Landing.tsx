@@ -366,6 +366,52 @@ export default function Landing() {
           </div>
         </div>
       </footer>
+
+      {/* Sección Legal */}
+      <section className="bg-slate-950/80 backdrop-blur-sm border-t border-amber-700/10 py-16 px-4">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            {/* Derechos de Autor */}
+            <div className="space-y-6">
+              <h3 className="text-2xl font-serif font-bold text-amber-300">Derechos de Autor</h3>
+              <div className="text-amber-100/70 font-light leading-relaxed space-y-4 text-sm">
+                <p>
+                  © 2025 Francisco de Borja Espínola Vergara. Todos los derechos reservados.
+                </p>
+                <p>
+                  Este dossier interactivo, incluyendo su contenido textual, imágenes, diseño, estructura y código fuente, está protegido por las leyes internacionales de derechos de autor y propiedad intelectual.
+                </p>
+                <p>
+                  La reproducción, distribución, transmisión, traducción o adaptación de cualquier parte de este trabajo sin la autorización previa y por escrito del autor está prohibida y puede resultar en sanciones civiles y penales.
+                </p>
+              </div>
+            </div>
+
+            {/* Aviso Legal */}
+            <div className="space-y-6">
+              <h3 className="text-2xl font-serif font-bold text-amber-300">Aviso Legal</h3>
+              <div className="text-amber-100/70 font-light leading-relaxed space-y-4 text-sm">
+                <p>
+                  Este dossier es una creación original documentando el viaje de Real Betis Balompié a la UEFA Conference League Final 2025 en Wrocław.
+                </p>
+                <p>
+                  Todas las imágenes, logotipos y marcas comerciales utilizadas pertenecen a sus respectivos propietarios. Su uso en este dossier es únicamente con fines documentales y conmemorativos.
+                </p>
+                <p>
+                  Real Betis Balompié y la UEFA Conference League son marcas registradas de sus respectivas organizaciones.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Línea separadora */}
+          <div className="border-t border-amber-700/20 mt-12 pt-8">
+            <p className="text-center text-amber-100/50 font-light text-xs tracking-widest uppercase">
+              Edición Limitada 2025 • Dossier Interactivo • Todos los derechos reservados
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

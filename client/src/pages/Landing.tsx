@@ -89,6 +89,27 @@ export default function Landing() {
           {/* Overlay oscuro para mejorar legibilidad del texto */}
           <div className="absolute inset-0 bg-gradient-to-r from-slate-950/40 via-slate-950/30 to-slate-950/40" />
         </div>
+        {/* Botones en la esquina superior derecha */}
+        <div className="absolute top-32 right-8 z-20 flex flex-col gap-4 md:flex-row md:gap-3">
+          <Link href="/flipbook" asChild>
+            <button className="group relative px-8 py-4 bg-gradient-to-br from-amber-400 via-amber-500 to-amber-600 hover:from-amber-500 hover:via-amber-600 hover:to-amber-700 text-slate-950 rounded-lg font-semibold flex items-center justify-center gap-2 shadow-2xl hover:shadow-3xl transition-all duration-500 overflow-hidden border border-amber-300/40 hover:border-amber-200/60 text-sm md:text-base">
+              <div className="absolute inset-0 bg-gradient-to-r from-white/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+              <div className="absolute -inset-1 bg-gradient-to-r from-amber-300 to-amber-500 rounded-lg blur opacity-0 group-hover:opacity-40 transition-opacity duration-500" />
+              <BookOpen size={20} className="relative" />
+              <span className="relative">Leer Dossier</span>
+            </button>
+          </Link>
+
+          <Link href="/slideshow" asChild>
+            <button className="group relative px-8 py-4 bg-gradient-to-br from-purple-500 via-purple-600 to-purple-700 hover:from-purple-600 hover:via-purple-700 hover:to-purple-800 text-white rounded-lg font-semibold flex items-center justify-center gap-2 shadow-2xl hover:shadow-3xl transition-all duration-500 overflow-hidden border border-purple-400/40 hover:border-purple-300/60 text-sm md:text-base">
+              <div className="absolute inset-0 bg-gradient-to-r from-white/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+              <div className="absolute -inset-1 bg-gradient-to-r from-purple-400 to-purple-600 rounded-lg blur opacity-0 group-hover:opacity-30 transition-opacity duration-500" />
+              <span className="relative text-xl">📊</span>
+              <span className="relative">Presentación</span>
+            </button>
+          </Link>
+        </div>
+
         <div className="relative z-10 max-w-7xl mx-auto w-full">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
             {/* Texto izquierdo */}
@@ -123,28 +144,6 @@ export default function Landing() {
               <p className="text-lg text-amber-100/70 leading-relaxed font-light max-w-xl">
                 Un viaje extraordinario documentado en un libro de lujo. Descubre la historia de una travesía europea inolvidable, desde Teruel hasta Wrocław, capturando cada momento de este encuentro histórico.
               </p>
-
-              {/* Botones CTA Ultra Premium */}
-              <div className="flex flex-col sm:flex-row gap-6 pt-12">
-                <Link href="/flipbook" asChild>
-                  <button className="group relative px-12 py-6 bg-gradient-to-br from-amber-400 via-amber-500 to-amber-600 hover:from-amber-500 hover:via-amber-600 hover:to-amber-700 text-slate-950 rounded-lg font-semibold flex items-center justify-center gap-3 shadow-2xl hover:shadow-3xl transition-all duration-500 overflow-hidden border border-amber-300/40 hover:border-amber-200/60">
-                    <div className="absolute inset-0 bg-gradient-to-r from-white/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                    <div className="absolute -inset-1 bg-gradient-to-r from-amber-300 to-amber-500 rounded-lg blur opacity-0 group-hover:opacity-40 transition-opacity duration-500" />
-                    <BookOpen size={24} className="relative" />
-                    <span className="relative text-lg">Leer Dossier</span>
-                    <ArrowRight size={22} className="relative group-hover:translate-x-2 transition-transform duration-300" />
-                  </button>
-                </Link>
-
-                <Link href="/slideshow" asChild>
-                  <button className="group relative px-12 py-6 bg-gradient-to-br from-purple-500 via-purple-600 to-purple-700 hover:from-purple-600 hover:via-purple-700 hover:to-purple-800 text-white rounded-lg font-semibold flex items-center justify-center gap-3 shadow-2xl hover:shadow-3xl transition-all duration-500 overflow-hidden border border-purple-400/40 hover:border-purple-300/60">
-                    <div className="absolute inset-0 bg-gradient-to-r from-white/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                    <div className="absolute -inset-1 bg-gradient-to-r from-purple-400 to-purple-600 rounded-lg blur opacity-0 group-hover:opacity-30 transition-opacity duration-500" />
-                    <span className="relative text-2xl">📊</span>
-                    <span className="relative text-lg">Ver Presentación</span>
-                  </button>
-                </Link>
-              </div>
 
               {/* Stats ultra-elegantes */}
               <div className="grid grid-cols-3 gap-12 pt-16 border-t border-amber-900/20">

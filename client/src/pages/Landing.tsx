@@ -73,8 +73,22 @@ export default function Landing() {
         </div>
       </section>
 
-      {/* Hero Section - Ultra Premium */}
+      {/* Hero Section - Ultra Premium con Video de Fondo */}
       <section id="inicio" className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden pt-20 pb-32 px-4">
+        {/* Video de Fondo */}
+        <div className="absolute inset-0 overflow-hidden">
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            className="absolute inset-0 w-full h-full object-cover"
+          >
+            <source src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/xKKLFltjmLDaxwHh.mp4" type="video/mp4" />
+          </video>
+          {/* Overlay oscuro para mejorar legibilidad del texto */}
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-950/70 to-slate-950/80" />
+        </div>
         <div className="relative z-10 max-w-7xl mx-auto w-full">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
             {/* Texto izquierdo */}

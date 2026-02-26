@@ -232,25 +232,25 @@ export default function Landing() {
               </div>
             </div>
 
-            {/* Card 2 - Camiseta */}
+            {/* Card 2 - El Autor */}
             <div className="group relative bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-xl rounded-2xl overflow-hidden border border-amber-700/30 hover:border-amber-500/50 transition-all duration-500 hover:shadow-2xl">
               <div className="absolute inset-0 bg-gradient-to-br from-amber-900/15 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               <div className="relative h-80 overflow-hidden bg-gradient-to-b from-slate-700 to-slate-800">
                 <img
-                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/opdBlWvbEXfOXkGD.jpg"
-                  alt="Camiseta oficial"
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/eSerekSBHBLTiaGJ.png"
+                  alt="El Autor"
                   className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-700"
                 />
               </div>
               <div className="relative p-10 space-y-4">
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-gradient-to-br from-amber-400 to-amber-600 rounded-lg flex items-center justify-center">
-                    <Trophy className="text-white" size={24} />
+                    <Sparkles className="text-white" size={24} />
                   </div>
-                  <h3 className="text-2xl font-serif font-bold text-white">Camiseta Oficial</h3>
+                  <h3 className="text-2xl font-serif font-bold text-white">El Autor</h3>
                 </div>
                 <p className="text-amber-100/70 font-light leading-relaxed">
-                  Camiseta oficial Real Betis Final Conference League 2025. Edición limitada conmemorativa.
+                  Francisco de Borja Espínola Vergara. Coleccionista & Viajero. Documentador de experiencias únicas.
                 </p>
               </div>
             </div>

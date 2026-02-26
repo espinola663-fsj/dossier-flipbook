@@ -253,8 +253,8 @@ export default function Landing() {
           <div className="relative group">
             <div className="absolute inset-0 bg-gradient-to-r from-amber-900/40 via-transparent to-amber-900/40 rounded-3xl blur-3xl group-hover:blur-4xl transition-all duration-500" />
             <img
-              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/aXeTynnZlQHxOybq.png"
-              alt="Sello Final Conference League"
+              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/SgAhpFLzdQcVXFPT.png"
+              alt="Artefacto: Camiseta Oficial"
               className="relative w-full h-auto drop-shadow-2xl group-hover:drop-shadow-3xl group-hover:scale-105 transition-all duration-500 rounded-2xl"
             />
           </div>

@@ -122,26 +122,26 @@ export default function Landing() {
 
               {/* Título principal - Tipografía refinada */}
               <div className="space-y-8">
-                <h1 className="text-7xl lg:text-8xl font-serif font-bold text-white leading-tight tracking-tight">
+                <h1 className="text-6xl md:text-7xl lg:text-9xl font-serif font-bold text-white leading-tight tracking-tight">
                   Dossier de
                   <span className="block text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-amber-200 to-amber-400">
                     Viaje
                   </span>
-                  <span className="block text-5xl lg:text-6xl text-amber-100/90 font-light">Coleccionista</span>
+                  <span className="block text-4xl md:text-5xl lg:text-7xl text-amber-100/90 font-light">Coleccionista</span>
                 </h1>
 
                 <div className="space-y-4 pt-4 border-t border-amber-900/30">
-                  <p className="text-2xl font-light text-amber-50 font-serif tracking-wide">
+                  <p className="text-xl md:text-2xl font-light text-amber-50 font-serif tracking-wide">
                     Real Betis Balompié vs Chelsea FC
                   </p>
-                  <p className="text-lg text-amber-100/60 font-light tracking-widest uppercase">
+                  <p className="text-sm md:text-base text-amber-100/60 font-light tracking-widest uppercase">
                     UEFA Conference League Final • Wrocław 2025
                   </p>
                 </div>
               </div>
 
               {/* Descripción elegante */}
-              <p className="text-lg text-amber-100/70 leading-relaxed font-light max-w-xl">
+              <p className="text-base md:text-lg text-amber-100/70 leading-relaxed font-light max-w-xl">
                 Un viaje extraordinario documentado en un libro de lujo. Descubre la historia de una travesía europea inolvidable, desde Teruel hasta Wrocław, capturando cada momento de este encuentro histórico.
               </p>
 
@@ -202,8 +202,8 @@ export default function Landing() {
       <section id="contenido" className="relative py-40 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-24">
-            <h2 className="text-6xl font-serif font-bold text-white mb-6">Explora el Viaje</h2>
-            <p className="text-xl text-amber-100/60 font-light max-w-2xl mx-auto">
+            <h2 className="text-5xl md:text-7xl font-serif font-bold text-white mb-6">Explora el Viaje</h2>
+            <p className="text-lg md:text-2xl text-amber-100/60 font-light max-w-2xl mx-auto">
               Tres elementos que definen esta experiencia única y exclusiva
             </p>
           </div>
@@ -224,9 +224,9 @@ export default function Landing() {
                   <div className="w-12 h-12 bg-gradient-to-br from-amber-400 to-amber-600 rounded-lg flex items-center justify-center">
                     <MapPin className="text-white" size={24} />
                   </div>
-                  <h3 className="text-2xl font-serif font-bold text-white">La Ruta</h3>
+                  <h3 className="text-2xl md:text-3xl font-serif font-bold text-white">La Ruta</h3>
                 </div>
-                <p className="text-amber-100/70 font-light leading-relaxed">
+                <p className="text-sm md:text-base text-amber-100/70 font-light leading-relaxed">
                   Descubre el viaje desde Teruel hasta Wrocław, pasando por los puntos más emblemáticos de Europa.
                 </p>
               </div>
@@ -247,9 +247,9 @@ export default function Landing() {
                   <div className="w-12 h-12 bg-gradient-to-br from-amber-400 to-amber-600 rounded-lg flex items-center justify-center">
                     <Sparkles className="text-white" size={24} />
                   </div>
-                  <h3 className="text-2xl font-serif font-bold text-white">El Autor</h3>
+                  <h3 className="text-2xl md:text-3xl font-serif font-bold text-white">El Autor</h3>
                 </div>
-                <p className="text-amber-100/70 font-light leading-relaxed">
+                <p className="text-sm md:text-base text-amber-100/70 font-light leading-relaxed">
                   Francisco de Borja Espínola Vergara. Coleccionista & Viajero. Documentador de experiencias únicas.
                 </p>
               </div>
@@ -270,9 +270,9 @@ export default function Landing() {
                   <div className="w-12 h-12 bg-gradient-to-br from-amber-400 to-amber-600 rounded-lg flex items-center justify-center">
                     <Sparkles className="text-white" size={24} />
                   </div>
-                  <h3 className="text-2xl font-serif font-bold text-white">Final 2025</h3>
+                  <h3 className="text-2xl md:text-3xl font-serif font-bold text-white">Final 2025</h3>
                 </div>
-                <p className="text-amber-100/70 font-light leading-relaxed">
+                <p className="text-sm md:text-base text-amber-100/70 font-light leading-relaxed">
                   Miércoles 28 de mayo de 2025. Estadio Wrocław Breslavia. Momento histórico.
                 </p>
               </div>
@@ -315,10 +315,10 @@ export default function Landing() {
           <div className="relative bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-xl rounded-3xl border border-amber-700/30 p-20 text-center overflow-hidden">
             <div className="absolute inset-0 bg-gradient-to-r from-amber-900/10 via-transparent to-amber-900/10" />
             <div className="relative z-10">
-              <h2 className="text-6xl font-serif font-bold text-white mb-8">
+              <h2 className="text-5xl md:text-7xl font-serif font-bold text-white mb-8">
                 Comienza tu Lectura
               </h2>
-              <p className="text-xl text-amber-100/70 font-light mb-12 max-w-3xl mx-auto leading-relaxed">
+              <p className="text-lg md:text-2xl text-amber-100/70 font-light mb-12 max-w-3xl mx-auto leading-relaxed">
                 Sumérgete en las 22 páginas de este dossier de viaje exclusivo. Una experiencia de lectura inmersiva con efecto de página realista y diseño ultra-premium.
               </p>
               <Link href="/flipbook" asChild>

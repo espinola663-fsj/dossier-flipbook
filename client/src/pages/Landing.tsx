@@ -10,28 +10,18 @@ export default function Landing() {
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-b from-slate-950/95 to-slate-950/80 backdrop-blur-md border-b border-amber-700/20">
         <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
-          <Link href="/">
-            <a className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-              <div className="w-10 h-10 bg-gradient-to-br from-amber-400 to-amber-600 rounded-lg flex items-center justify-center">
-                <span className="text-xl font-serif font-bold text-slate-950">D</span>
-              </div>
-              <span className="text-xl font-serif font-bold text-white hidden sm:inline">Dossier</span>
-            </a>
+          <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
+            <div className="w-10 h-10 bg-gradient-to-br from-amber-400 to-amber-600 rounded-lg flex items-center justify-center">
+              <span className="text-xl font-serif font-bold text-slate-950">D</span>
+            </div>
+            <span className="text-xl font-serif font-bold text-white hidden sm:inline">Dossier</span>
           </Link>
 
           <nav className="hidden md:flex items-center gap-12">
-            <Link href="#inicio">
-              <a className="text-amber-100/70 hover:text-amber-200 transition-colors font-light">Inicio</a>
-            </Link>
-            <Link href="#contenido">
-              <a className="text-amber-100/70 hover:text-amber-200 transition-colors font-light">Contenido</a>
-            </Link>
-            <Link href="#evento">
-              <a className="text-amber-100/70 hover:text-amber-200 transition-colors font-light">Evento</a>
-            </Link>
-            <Link href="#autor">
-              <a className="text-amber-100/70 hover:text-amber-200 transition-colors font-light">Autor</a>
-            </Link>
+            <Link href="#inicio" className="text-amber-100/70 hover:text-amber-200 transition-colors font-light">Inicio</Link>
+            <Link href="#contenido" className="text-amber-100/70 hover:text-amber-200 transition-colors font-light">Contenido</Link>
+            <Link href="#evento" className="text-amber-100/70 hover:text-amber-200 transition-colors font-light">Evento</Link>
+            <Link href="#autor" className="text-amber-100/70 hover:text-amber-200 transition-colors font-light">Autor</Link>
           </nav>
         </div>
       </header>

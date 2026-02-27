@@ -379,10 +379,7 @@ export default function Landing() {
                   © 2025 Francisco de Borja Espínola Vergara. Todos los derechos reservados.
                 </p>
                 <p>
-                  Este dossier interactivo, incluyendo su contenido textual, imágenes, diseño, estructura y código fuente, está protegido por las leyes internacionales de derechos de autor y propiedad intelectual.
-                </p>
-                <p>
-                  La reproducción, distribución, transmisión, traducción o adaptación de cualquier parte de este trabajo sin la autorización previa y por escrito del autor está prohibida y puede resultar en sanciones civiles y penales.
+                  Este dossier interactivo está protegido por las leyes internacionales de derechos de autor. La reproducción, distribución o adaptación sin autorización previa está prohibida.
                 </p>
               </div>
             </div>
@@ -392,13 +389,10 @@ export default function Landing() {
               <h3 className="text-2xl font-serif font-bold text-amber-300">Aviso Legal</h3>
               <div className="text-amber-100/70 font-light leading-relaxed space-y-4 text-sm">
                 <p>
-                  Este dossier es una creación original documentando el viaje de Real Betis Balompié a la UEFA Conference League Final 2025 en Wrocław.
+                  Creación original documentando el viaje de Real Betis Balompié a la UEFA Conference League Final 2025 en Wrocław.
                 </p>
                 <p>
-                  Todas las imágenes, logotipos y marcas comerciales utilizadas pertenecen a sus respectivos propietarios. Su uso en este dossier es únicamente con fines documentales y conmemorativos.
-                </p>
-                <p>
-                  Real Betis Balompié y la UEFA Conference League son marcas registradas de sus respectivas organizaciones.
+                  Las imágenes, logotipos y marcas utilizadas pertenecen a sus respectivos propietarios. Real Betis Balompié y UEFA Conference League son marcas registradas.
                 </p>
               </div>
             </div>

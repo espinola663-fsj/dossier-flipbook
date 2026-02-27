@@ -11,10 +11,6 @@ import { useState } from 'react';
 
 export default function Landing() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [shirtOpen, setShirtOpen] = useState(false);
-  const [ticketOpen, setTicketOpen] = useState(false);
-  const [shirtRotation, setShirtRotation] = useState(0);
-  const [ticketRotation, setTicketRotation] = useState(0);
 
   return (
     <div className="w-full bg-gradient-to-b from-slate-950 via-slate-900 to-black overflow-hidden">
@@ -285,161 +281,33 @@ export default function Landing() {
         </div>
       </section>
 
-      {/* Sello Premium - Camiseta Oficial */}
+      {/* Sello Premium */}
       <section className="relative py-40 px-4 flex justify-center">
         <div className="max-w-3xl w-full">
-          <div className="relative group cursor-pointer" onClick={() => setShirtOpen(true)}>
+          <div className="relative group">
             <div className="absolute inset-0 bg-gradient-to-r from-amber-900/40 via-transparent to-amber-900/40 rounded-3xl blur-3xl group-hover:blur-4xl transition-all duration-500" />
             <img
               src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/SgAhpFLzdQcVXFPT.png"
               alt="Artefacto: Camiseta Oficial"
-              className="relative w-full h-auto drop-shadow-2xl group-hover:drop-shadow-3xl group-hover:scale-110 transition-all duration-500 rounded-2xl"
+              className="relative w-full h-auto drop-shadow-2xl group-hover:drop-shadow-3xl group-hover:scale-105 transition-all duration-500 rounded-2xl"
             />
-            <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <div className="bg-amber-500/90 text-white px-6 py-3 rounded-lg font-semibold text-lg">Haz clic para ver 360°</div>
-            </div>
           </div>
         </div>
       </section>
-
-      {/* Modal 3D - Camiseta */}
-      {shirtOpen && (
-        <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4">
-          <div className="relative bg-gradient-to-br from-slate-800 to-slate-900 rounded-3xl border border-amber-700/30 max-w-2xl w-full p-8">
-            <button
-              onClick={() => setShirtOpen(false)}
-              className="absolute top-6 right-6 text-amber-300 hover:text-amber-200 transition-colors"
-            >
-              <X size={32} />
-            </button>
-            
-            <div className="space-y-8">
-              <div className="text-center">
-                <h3 className="text-4xl font-serif font-bold text-white mb-2">Camiseta Oficial</h3>
-                <p className="text-amber-100/70 font-light">Real Betis Conference League Final 2025</p>
-              </div>
-
-              <div className="flex flex-col items-center space-y-6">
-                <div className="relative w-full h-96 bg-gradient-to-b from-slate-700 to-slate-800 rounded-2xl flex items-center justify-center overflow-hidden">
-                  <img
-                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/SgAhpFLzdQcVXFPT.png"
-                    alt="Camiseta 360"
-                    className="w-full h-full object-contain"
-                    style={{
-                      transform: `rotateY(${shirtRotation}deg)`,
-                      transformStyle: 'preserve-3d',
-                      transition: 'transform 0.3s ease-out'
-                    }}
-                  />
-                </div>
-
-                <div className="flex gap-4 justify-center flex-wrap">
-                  <button
-                    onClick={() => setShirtRotation((prev) => (prev - 45) % 360)}
-                    className="px-6 py-3 bg-amber-500 hover:bg-amber-600 text-white rounded-lg font-semibold transition-colors"
-                  >
-                    ← Girar Izquierda
-                  </button>
-                  <button
-                    onClick={() => setShirtRotation((prev) => (prev + 45) % 360)}
-                    className="px-6 py-3 bg-amber-500 hover:bg-amber-600 text-white rounded-lg font-semibold transition-colors"
-                  >
-                    Girar Derecha →
-                  </button>
-                  <button
-                    onClick={() => setShirtRotation(0)}
-                    className="px-6 py-3 bg-slate-600 hover:bg-slate-700 text-white rounded-lg font-semibold transition-colors"
-                  >
-                    Reiniciar
-                  </button>
-                </div>
-
-                <div className="text-center text-amber-100/70 font-light">
-                  <p>Rotación: {shirtRotation}°</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
 
       {/* Entrada del Partido */}
       <section className="relative py-40 px-4 flex justify-center">
         <div className="max-w-4xl w-full">
-          <div className="relative group cursor-pointer" onClick={() => setTicketOpen(true)}>
+          <div className="relative group">
             <div className="absolute inset-0 bg-gradient-to-r from-green-900/40 via-transparent to-amber-900/40 rounded-3xl blur-3xl group-hover:blur-4xl transition-all duration-500" />
             <img
               src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/DUtKTATIIZaRETRq.png"
               alt="Entrada Final Conference League 2025"
-              className="relative w-full h-auto drop-shadow-2xl group-hover:drop-shadow-3xl group-hover:scale-110 transition-all duration-500 rounded-2xl"
+              className="relative w-full h-auto drop-shadow-2xl group-hover:drop-shadow-3xl group-hover:scale-105 transition-all duration-500 rounded-2xl"
             />
-            <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <div className="bg-green-500/90 text-white px-6 py-3 rounded-lg font-semibold text-lg">Haz clic para ver 360°</div>
-            </div>
           </div>
         </div>
       </section>
-
-      {/* Modal 3D - Ticket */}
-      {ticketOpen && (
-        <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4">
-          <div className="relative bg-gradient-to-br from-slate-800 to-slate-900 rounded-3xl border border-green-700/30 max-w-2xl w-full p-8">
-            <button
-              onClick={() => setTicketOpen(false)}
-              className="absolute top-6 right-6 text-green-300 hover:text-green-200 transition-colors"
-            >
-              <X size={32} />
-            </button>
-            
-            <div className="space-y-8">
-              <div className="text-center">
-                <h3 className="text-4xl font-serif font-bold text-white mb-2">Entrada Oficial</h3>
-                <p className="text-green-100/70 font-light">UEFA Conference League Final • Wrocław 2025</p>
-              </div>
-
-              <div className="flex flex-col items-center space-y-6">
-                <div className="relative w-full h-96 bg-gradient-to-b from-slate-700 to-slate-800 rounded-2xl flex items-center justify-center overflow-hidden">
-                  <img
-                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/DUtKTATIIZaRETRq.png"
-                    alt="Ticket 360"
-                    className="w-full h-full object-contain"
-                    style={{
-                      transform: `rotateY(${ticketRotation}deg)`,
-                      transformStyle: 'preserve-3d',
-                      transition: 'transform 0.3s ease-out'
-                    }}
-                  />
-                </div>
-
-                <div className="flex gap-4 justify-center flex-wrap">
-                  <button
-                    onClick={() => setTicketRotation((prev) => (prev - 45) % 360)}
-                    className="px-6 py-3 bg-green-500 hover:bg-green-600 text-white rounded-lg font-semibold transition-colors"
-                  >
-                    ← Girar Izquierda
-                  </button>
-                  <button
-                    onClick={() => setTicketRotation((prev) => (prev + 45) % 360)}
-                    className="px-6 py-3 bg-green-500 hover:bg-green-600 text-white rounded-lg font-semibold transition-colors"
-                  >
-                    Girar Derecha →
-                  </button>
-                  <button
-                    onClick={() => setTicketRotation(0)}
-                    className="px-6 py-3 bg-slate-600 hover:bg-slate-700 text-white rounded-lg font-semibold transition-colors"
-                  >
-                    Reiniciar
-                  </button>
-                </div>
-
-                <div className="text-center text-green-100/70 font-light">
-                  <p>Rotación: {ticketRotation}°</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
 
       {/* CTA Final Ultra Premium */}
       <section className="relative py-40 px-4">

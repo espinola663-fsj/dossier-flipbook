@@ -169,9 +169,13 @@ export default function Landing() {
             <div className="group relative">
               <div className="absolute inset-0 bg-gradient-to-br from-amber-900/40 via-transparent to-transparent rounded-3xl blur-2xl group-hover:blur-3xl transition-all duration-500" />
               <div className="relative bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-xl rounded-3xl border border-amber-700/30 overflow-hidden hover:border-amber-600/60 transition-all duration-500">
-                <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/DtEVVBAveczChnmg.png" alt="La Ruta" className="w-full h-48 object-cover" />
+                <div className="relative h-48 bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center overflow-hidden">
+                  <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/VxTqaegQSQecpFXQ.png" alt="La Ruta - Teruel to Wroclaw" className="w-full h-full object-cover" />
+                </div>
                 <div className="p-12">
-                  <h3 className="text-3xl md:text-4xl font-serif font-bold text-white mb-4">La Ruta</h3>
+                  <h3 className="text-3xl md:text-4xl font-serif font-bold text-white mb-4 flex items-center gap-3">
+                    <span className="text-2xl">📍</span>La Ruta
+                  </h3>
                   <p className="text-base md:text-lg text-amber-100/70 font-light leading-relaxed">
                     Descubre el viaje desde Teruel hasta Wrocław, pasando por los puntos más emblemáticos de Europa.
                   </p>
@@ -183,9 +187,13 @@ export default function Landing() {
             <div className="group relative">
               <div className="absolute inset-0 bg-gradient-to-br from-purple-900/40 via-transparent to-transparent rounded-3xl blur-2xl group-hover:blur-3xl transition-all duration-500" />
               <div className="relative bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-xl rounded-3xl border border-purple-700/30 overflow-hidden hover:border-purple-600/60 transition-all duration-500">
-                <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/GvbZQyYCSeCnShle.jpg" alt="El Autor" className="w-full h-48 object-cover" />
+                <div className="relative h-48 bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center overflow-hidden">
+                  <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/VxTqaegQSQecpFXQ.png" alt="El Autor - Francisco de Borja" className="w-full h-full object-cover" />
+                </div>
                 <div className="p-12">
-                  <h3 className="text-3xl md:text-4xl font-serif font-bold text-white mb-4" id="autor">El Autor</h3>
+                  <h3 className="text-3xl md:text-4xl font-serif font-bold text-white mb-4 flex items-center gap-3" id="autor">
+                    <span className="text-2xl">✨</span>El Autor
+                  </h3>
                   <p className="text-base md:text-lg text-amber-100/70 font-light leading-relaxed">
                     Francisco de Borja Espínola Vergara. Coleccionista & Viajero. Documentador de experiencias únicas.
                   </p>
@@ -197,9 +205,13 @@ export default function Landing() {
             <div className="group relative">
               <div className="absolute inset-0 bg-gradient-to-br from-green-900/40 via-transparent to-transparent rounded-3xl blur-2xl group-hover:blur-3xl transition-all duration-500" />
               <div className="relative bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-xl rounded-3xl border border-green-700/30 overflow-hidden hover:border-green-600/60 transition-all duration-500">
-                <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/KTYCQzSCpKVsnadv.jpg" alt="Final 2025" className="w-full h-48 object-cover" />
+                <div className="relative h-48 bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center overflow-hidden">
+                  <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/VxTqaegQSQecpFXQ.png" alt="Final 2025 - Stadium" className="w-full h-full object-cover" />
+                </div>
                 <div className="p-12">
-                  <h3 className="text-3xl md:text-4xl font-serif font-bold text-white mb-4">Final 2025</h3>
+                  <h3 className="text-3xl md:text-4xl font-serif font-bold text-white mb-4 flex items-center gap-3">
+                    <span className="text-2xl">🏆</span>Final 2025
+                  </h3>
                   <p className="text-base md:text-lg text-amber-100/70 font-light leading-relaxed">
                     Miércoles 28 de mayo de 2025. Estadio Wrocław Breslavia. Momento histórico.
                   </p>

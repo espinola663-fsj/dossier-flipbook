@@ -59,19 +59,6 @@ export default function Landing() {
         )}
       </header>
 
-      {/* Sección Moneda Dorada - Top */}
-      <section className="relative pt-40 pb-20 px-4 flex justify-center">
-        <div className="max-w-2xl w-full">
-          <div className="relative group">
-            <div className="absolute inset-0 bg-gradient-to-r from-amber-900/50 via-amber-800/30 to-amber-900/50 rounded-full blur-3xl group-hover:blur-4xl transition-all duration-500" />
-            <img
-              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/mrBErlonKTjgTjJS.png"
-              alt="Moneda Final Conference League"
-              className="relative w-full max-w-sm h-auto drop-shadow-2xl group-hover:drop-shadow-3xl group-hover:scale-105 transition-all duration-500 mx-auto"
-            />
-          </div>
-        </div>
-      </section>
 
       {/* Hero Section - Ultra Premium con Video de Fondo */}
       <section id="inicio" className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden pt-20 pb-32 px-4">

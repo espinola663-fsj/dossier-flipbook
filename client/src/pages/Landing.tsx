@@ -170,7 +170,7 @@ export default function Landing() {
               <div className="absolute inset-0 bg-gradient-to-br from-amber-900/40 via-transparent to-transparent rounded-3xl blur-2xl group-hover:blur-3xl transition-all duration-500" />
               <div className="relative bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-xl rounded-3xl border border-amber-700/30 overflow-hidden hover:border-amber-600/60 transition-all duration-500">
                 <div className="relative h-48 bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center overflow-hidden">
-                  <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/VxTqaegQSQecpFXQ.png" alt="La Ruta - Teruel to Wroclaw" className="w-full h-full object-cover" />
+                  <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/euUfzOMyTHgahviH.png" alt="La Ruta - Mapa Teruel Wroclaw" className="w-full h-full object-cover" />
                 </div>
                 <div className="p-12">
                   <h3 className="text-3xl md:text-4xl font-serif font-bold text-white mb-4 flex items-center gap-3">
@@ -188,7 +188,7 @@ export default function Landing() {
               <div className="absolute inset-0 bg-gradient-to-br from-purple-900/40 via-transparent to-transparent rounded-3xl blur-2xl group-hover:blur-3xl transition-all duration-500" />
               <div className="relative bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-xl rounded-3xl border border-purple-700/30 overflow-hidden hover:border-purple-600/60 transition-all duration-500">
                 <div className="relative h-48 bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center overflow-hidden">
-                  <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/VxTqaegQSQecpFXQ.png" alt="El Autor - Francisco de Borja" className="w-full h-full object-cover" />
+                  <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/NxukrSMjgnUdDQtR.png" alt="El Autor - Francisco de Borja Espínola Vergara" className="w-full h-full object-cover" />
                 </div>
                 <div className="p-12">
                   <h3 className="text-3xl md:text-4xl font-serif font-bold text-white mb-4 flex items-center gap-3" id="autor">
@@ -206,7 +206,7 @@ export default function Landing() {
               <div className="absolute inset-0 bg-gradient-to-br from-green-900/40 via-transparent to-transparent rounded-3xl blur-2xl group-hover:blur-3xl transition-all duration-500" />
               <div className="relative bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-xl rounded-3xl border border-green-700/30 overflow-hidden hover:border-green-600/60 transition-all duration-500">
                 <div className="relative h-48 bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center overflow-hidden">
-                  <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/VxTqaegQSQecpFXQ.png" alt="Final 2025 - Stadium" className="w-full h-full object-cover" />
+                  <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/UrNaUBEtVADthuxo.png" alt="Final 2025 - Cartel Partido Chelsea Real Betis" className="w-full h-full object-cover" />
                 </div>
                 <div className="p-12">
                   <h3 className="text-3xl md:text-4xl font-serif font-bold text-white mb-4 flex items-center gap-3">

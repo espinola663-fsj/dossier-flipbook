@@ -169,7 +169,7 @@ export default function Landing() {
             <div className="group relative">
               <div className="absolute inset-0 bg-gradient-to-br from-amber-900/40 via-transparent to-transparent rounded-3xl blur-2xl group-hover:blur-3xl transition-all duration-500" />
               <div className="relative bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-xl rounded-3xl border border-amber-700/30 overflow-hidden hover:border-amber-600/60 transition-all duration-500">
-                <img src="/home/ubuntu/upload/search_images/vxFYsNHZfO8s.png" alt="La Ruta" className="w-full h-48 object-cover" />
+                <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/DtEVVBAveczChnmg.png" alt="La Ruta" className="w-full h-48 object-cover" />
                 <div className="p-12">
                   <h3 className="text-3xl md:text-4xl font-serif font-bold text-white mb-4">La Ruta</h3>
                   <p className="text-base md:text-lg text-amber-100/70 font-light leading-relaxed">
@@ -183,7 +183,7 @@ export default function Landing() {
             <div className="group relative">
               <div className="absolute inset-0 bg-gradient-to-br from-purple-900/40 via-transparent to-transparent rounded-3xl blur-2xl group-hover:blur-3xl transition-all duration-500" />
               <div className="relative bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-xl rounded-3xl border border-purple-700/30 overflow-hidden hover:border-purple-600/60 transition-all duration-500">
-                <img src="/home/ubuntu/upload/search_images/xxM7bPM6Vh1n.jpg" alt="El Autor" className="w-full h-48 object-cover" />
+                <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/GvbZQyYCSeCnShle.jpg" alt="El Autor" className="w-full h-48 object-cover" />
                 <div className="p-12">
                   <h3 className="text-3xl md:text-4xl font-serif font-bold text-white mb-4" id="autor">El Autor</h3>
                   <p className="text-base md:text-lg text-amber-100/70 font-light leading-relaxed">
@@ -197,7 +197,7 @@ export default function Landing() {
             <div className="group relative">
               <div className="absolute inset-0 bg-gradient-to-br from-green-900/40 via-transparent to-transparent rounded-3xl blur-2xl group-hover:blur-3xl transition-all duration-500" />
               <div className="relative bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-xl rounded-3xl border border-green-700/30 overflow-hidden hover:border-green-600/60 transition-all duration-500">
-                <img src="/home/ubuntu/upload/search_images/UV8OUMgeYJLz.jpg" alt="Final 2025" className="w-full h-48 object-cover" />
+                <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/KTYCQzSCpKVsnadv.jpg" alt="Final 2025" className="w-full h-48 object-cover" />
                 <div className="p-12">
                   <h3 className="text-3xl md:text-4xl font-serif font-bold text-white mb-4">Final 2025</h3>
                   <p className="text-base md:text-lg text-amber-100/70 font-light leading-relaxed">

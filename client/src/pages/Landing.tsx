@@ -78,10 +78,10 @@ export default function Landing() {
               <div className="space-y-8">
                 <h1 className="text-6xl md:text-7xl lg:text-9xl font-serif font-bold text-white leading-tight tracking-tight">
                   Dossier de
-                  <span className="block text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-amber-200 to-amber-400">
+                  <span className="block text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-amber-200 to-amber-400 leading-none">
                     Viaje
                   </span>
-                  <span className="block text-4xl md:text-5xl lg:text-7xl text-amber-100/90 font-light">Coleccionista</span>
+                  <span className="block text-4xl md:text-5xl lg:text-7xl text-amber-100/90 font-light leading-tight">Coleccionista</span>
                 </h1>
 
                 <div className="space-y-4 pt-4 border-t border-amber-900/30">
@@ -168,33 +168,42 @@ export default function Landing() {
             {/* Tarjeta 1 */}
             <div className="group relative">
               <div className="absolute inset-0 bg-gradient-to-br from-amber-900/40 via-transparent to-transparent rounded-3xl blur-2xl group-hover:blur-3xl transition-all duration-500" />
-              <div className="relative bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-xl rounded-3xl border border-amber-700/30 p-12 hover:border-amber-600/60 transition-all duration-500">
-                <h3 className="text-3xl md:text-4xl font-serif font-bold text-white mb-4">La Ruta</h3>
-                <p className="text-base md:text-lg text-amber-100/70 font-light leading-relaxed">
-                  Descubre el viaje desde Teruel hasta Wrocław, pasando por los puntos más emblemáticos de Europa.
-                </p>
+              <div className="relative bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-xl rounded-3xl border border-amber-700/30 overflow-hidden hover:border-amber-600/60 transition-all duration-500">
+                <img src="/home/ubuntu/upload/search_images/vxFYsNHZfO8s.png" alt="La Ruta" className="w-full h-48 object-cover" />
+                <div className="p-12">
+                  <h3 className="text-3xl md:text-4xl font-serif font-bold text-white mb-4">La Ruta</h3>
+                  <p className="text-base md:text-lg text-amber-100/70 font-light leading-relaxed">
+                    Descubre el viaje desde Teruel hasta Wrocław, pasando por los puntos más emblemáticos de Europa.
+                  </p>
+                </div>
               </div>
             </div>
 
             {/* Tarjeta 2 */}
             <div className="group relative">
               <div className="absolute inset-0 bg-gradient-to-br from-purple-900/40 via-transparent to-transparent rounded-3xl blur-2xl group-hover:blur-3xl transition-all duration-500" />
-              <div className="relative bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-xl rounded-3xl border border-purple-700/30 p-12 hover:border-purple-600/60 transition-all duration-500">
-                <h3 className="text-3xl md:text-4xl font-serif font-bold text-white mb-4" id="autor">El Autor</h3>
-                <p className="text-base md:text-lg text-amber-100/70 font-light leading-relaxed">
-                  Francisco de Borja Espínola Vergara. Coleccionista & Viajero. Documentador de experiencias únicas.
-                </p>
+              <div className="relative bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-xl rounded-3xl border border-purple-700/30 overflow-hidden hover:border-purple-600/60 transition-all duration-500">
+                <img src="/home/ubuntu/upload/search_images/xxM7bPM6Vh1n.jpg" alt="El Autor" className="w-full h-48 object-cover" />
+                <div className="p-12">
+                  <h3 className="text-3xl md:text-4xl font-serif font-bold text-white mb-4" id="autor">El Autor</h3>
+                  <p className="text-base md:text-lg text-amber-100/70 font-light leading-relaxed">
+                    Francisco de Borja Espínola Vergara. Coleccionista & Viajero. Documentador de experiencias únicas.
+                  </p>
+                </div>
               </div>
             </div>
 
             {/* Tarjeta 3 */}
             <div className="group relative">
               <div className="absolute inset-0 bg-gradient-to-br from-green-900/40 via-transparent to-transparent rounded-3xl blur-2xl group-hover:blur-3xl transition-all duration-500" />
-              <div className="relative bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-xl rounded-3xl border border-green-700/30 p-12 hover:border-green-600/60 transition-all duration-500">
-                <h3 className="text-3xl md:text-4xl font-serif font-bold text-white mb-4">Final 2025</h3>
-                <p className="text-base md:text-lg text-amber-100/70 font-light leading-relaxed">
-                  Miércoles 28 de mayo de 2025. Estadio Wrocław Breslavia. Momento histórico.
-                </p>
+              <div className="relative bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-xl rounded-3xl border border-green-700/30 overflow-hidden hover:border-green-600/60 transition-all duration-500">
+                <img src="/home/ubuntu/upload/search_images/UV8OUMgeYJLz.jpg" alt="Final 2025" className="w-full h-48 object-cover" />
+                <div className="p-12">
+                  <h3 className="text-3xl md:text-4xl font-serif font-bold text-white mb-4">Final 2025</h3>
+                  <p className="text-base md:text-lg text-amber-100/70 font-light leading-relaxed">
+                    Miércoles 28 de mayo de 2025. Estadio Wrocław Breslavia. Momento histórico.
+                  </p>
+                </div>
               </div>
             </div>
           </div>

@@ -282,28 +282,28 @@ export default function Landing() {
       </section>
 
       {/* Sello Premium */}
-      <section className="relative py-40 px-4 flex justify-center">
-        <div className="max-w-3xl w-full">
+      <section className="relative py-20 md:py-40 px-4 flex justify-center">
+        <div className="max-w-2xl w-full">
           <div className="relative group">
             <div className="absolute inset-0 bg-gradient-to-r from-amber-900/40 via-transparent to-amber-900/40 rounded-3xl blur-3xl group-hover:blur-4xl transition-all duration-500" />
             <img
               src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/SgAhpFLzdQcVXFPT.png"
               alt="Artefacto: Camiseta Oficial"
-              className="relative w-full h-auto drop-shadow-2xl group-hover:drop-shadow-3xl group-hover:scale-105 transition-all duration-500 rounded-2xl"
+              className="relative w-full h-auto max-h-96 object-contain drop-shadow-2xl group-hover:drop-shadow-3xl group-hover:scale-105 transition-all duration-500 rounded-2xl"
             />
           </div>
         </div>
       </section>
 
       {/* Entrada del Partido */}
-      <section className="relative py-40 px-4 flex justify-center">
-        <div className="max-w-4xl w-full">
+      <section className="relative py-20 md:py-40 px-4 flex justify-center">
+        <div className="max-w-2xl w-full">
           <div className="relative group">
             <div className="absolute inset-0 bg-gradient-to-r from-green-900/40 via-transparent to-amber-900/40 rounded-3xl blur-3xl group-hover:blur-4xl transition-all duration-500" />
             <img
               src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663376214421/DUtKTATIIZaRETRq.png"
               alt="Entrada Final Conference League 2025"
-              className="relative w-full h-auto drop-shadow-2xl group-hover:drop-shadow-3xl group-hover:scale-105 transition-all duration-500 rounded-2xl"
+              className="relative w-full h-auto max-h-96 object-contain drop-shadow-2xl group-hover:drop-shadow-3xl group-hover:scale-105 transition-all duration-500 rounded-2xl"
             />
           </div>
         </div>
